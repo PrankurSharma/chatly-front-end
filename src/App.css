@@ -170,7 +170,7 @@ body {
 
 .joinContainer {
     width: 55%;
-    margin: 40px auto auto auto;
+    margin: 15% auto auto auto;
     border: 2px solid purple;
     box-shadow: 0 2px 25px purple;
     justify-content: center;
@@ -184,13 +184,15 @@ body {
 }
 
 .room-code input {
-    width: 45%;
-    height: 70px;
+    width: 90%;
+    height: 40px;
+    margin-bottom: 10px;
 }
 
 .room-code button {
-    width: 45%;
-    height: 70px;
+    width: 90%;
+    height: 40px;
+    background-color: blue;
 }
 
 .warn {
