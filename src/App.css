@@ -118,7 +118,8 @@ body {
     margin-left: 48%;
     margin-top: 10px;
     background-color: green;
-    width: 50%;
+    width: fit-content;
+    max-width: 50%;
     height: auto;
 }
 
@@ -132,7 +133,8 @@ body {
     margin-right: 50%;
     margin-top: 10px;
     background-color: gray;
-    width: 50%;
+    width: fit-content;
+    max-width: 50%;
     height: auto;
 }
 
@@ -141,6 +143,7 @@ body {
     flex-direction: row;
     justify-content: right;
     margin-right: 20px;
+    color: white;
 }
 
 #other .msgMeta {
@@ -148,6 +151,7 @@ body {
     flex-direction: row;
     justify-content: left;
     margin-left: 20px;
+    color: white;
 }
 
 .div-chat {
