@@ -117,7 +117,7 @@ body {
     margin-left: 48%;
     margin-top: 10px;
     background-color: green;
-    width: 50%;
+    width: auto;
     height: auto;
     overflow: auto;
 }
@@ -131,7 +131,7 @@ body {
     margin-right: 50%;
     margin-top: 10px;
     background-color: gray;
-    width: 50%;
+    width: auto;
     height: auto;
     overflow: auto;
 }
