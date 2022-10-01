@@ -138,20 +138,20 @@ body {
 
 #you .msgMeta {
     display: flex;
-    flex-direction: row;
     justify-content: right;
     margin-top: 20px;
     margin-right: 20px;
     color: white;
+    overflow: auto;
 }
 
 #other .msgMeta {
     display: flex;
-    flex-direction: row;
     justify-content: left;
     margin-top: 20px;
     margin-left: 20px;
     color: white;
+    overflow: auto;
 }
 
 .div-chat {
