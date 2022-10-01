@@ -112,46 +112,34 @@ body {
 #you .my_message {
     display: flex;
     float: right;
-    align-items: center;
-    justify-content: center;
     border: 2px solid black;
     border-radius: 5px;
-    margin-left: 48%;
-    margin-top: 10px;
     background-color: green;
-    width: fit-content;
     max-width: 50%;
-    height: auto;
+    min-height: 10px;
 }
 
 #other .my_message {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    float: left;
     border: 2px solid black;
     border-radius: 5px;
-    margin-left: 10px;
-    margin-right: 50%;
-    margin-top: 10px;
     background-color: gray;
-    width: fit-content;
     max-width: 50%;
-    height: auto;
+    min-height: 10px;
 }
 
 #you .msgMeta {
     display: flex;
-    flex-direction: row;
     justify-content: right;
-    margin-right: 20px;
+    margin: auto;
     color: white;
 }
 
 #other .msgMeta {
     display: flex;
-    flex-direction: row;
-    justify-content: left;
-    margin-left: 20px;
+    justify-content: right;
+    margin: auto;
     color: white;
 }
 
