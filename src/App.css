@@ -115,7 +115,7 @@ body {
     border: 2px solid black;
     border-radius: 5px;
     background-color: green;
-    width: auto;
+    max-width: 50%;
     height: auto;
     overflow: auto;
 }
@@ -126,7 +126,7 @@ body {
     border: 2px solid black;
     border-radius: 5px;
     background-color: gray;
-    width: auto;
+    max-width: 50%;
     height: auto;
     overflow: auto;
 }
