@@ -111,7 +111,7 @@ body {
 
 #you .my_message {
     display: flex;
-    float: right;
+    justify-content: flex-end;
     border: 2px solid black;
     border-radius: 5px;
     background-color: green;
@@ -121,7 +121,7 @@ body {
 
 #other .my_message {
     display: flex;
-    float: left;
+    justify-content: flex-start;
     border: 2px solid black;
     border-radius: 5px;
     background-color: gray;
@@ -131,15 +131,15 @@ body {
 
 #you .msgMeta {
     display: flex;
-    float: right;
-    margin: 10px auto auto auto;
+    justify-content: flex-end;
+    margin: auto;
     color: white;
 }
 
 #other .msgMeta {
     display: flex;
-    float: right;
-    margin: 10px auto auto auto;
+    justify-content: flex-start;
+    margin: auto;
     color: white;
 }
 
