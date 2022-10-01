@@ -117,6 +117,7 @@ body {
     background-color: green;
     min-width: 10px;
     min-height: 10px;
+    width: auto;
     overflow: hidden;
 }
 
@@ -128,6 +129,7 @@ body {
     background-color: gray;
     min-width: 10px;
     min-height: 10px;
+    width: auto;
     overflow: hidden;
 }
 
