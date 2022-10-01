@@ -116,8 +116,7 @@ body {
     border-radius: 5px;
     background-color: green;
     max-width: 50%;
-    height: auto;
-    overflow: auto;
+    min-height: 10px;
 }
 
 #other .my_message {
@@ -127,8 +126,7 @@ body {
     border-radius: 5px;
     background-color: gray;
     max-width: 50%;
-    height: auto;
-    overflow: auto;
+    min-height: 10px;
 }
 
 #you .msgMeta {
