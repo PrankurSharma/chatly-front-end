@@ -111,6 +111,7 @@ body {
 
 #you .my_message {
     display: flex;
+    float: right;
     align-items: center;
     justify-content: center;
     border: 2px solid black;
