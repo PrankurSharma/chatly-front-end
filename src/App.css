@@ -132,16 +132,14 @@ body {
 #you .msgMeta {
     display: flex;
     float: right;
-    margin-top: auto;
-    margin-right: 20px;
+    margin: 10px auto auto auto;
     color: white;
 }
 
 #other .msgMeta {
     display: flex;
     float: right;
-    margin-top: auto;
-    margin-right: 20px;
+    margin: 10px auto auto auto;
     color: white;
 }
 
