@@ -140,6 +140,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: right;
+    margin-top: 20px;
     margin-right: 20px;
     color: white;
 }
@@ -148,6 +149,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: left;
+    margin-top: 20px;
     margin-left: 20px;
     color: white;
 }
