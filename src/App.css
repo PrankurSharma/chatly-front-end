@@ -111,36 +111,43 @@ body {
 
 #you .my_message {
     display: flex;
-    float: right;
+    align-items: center;
+    justify-content: center;
     border: 2px solid black;
     border-radius: 5px;
+    margin-left: 48%;
+    margin-top: 10px;
     background-color: green;
-    max-width: 50%;
-    min-height: 10px;
+    width: 50%;
+    height: auto;
 }
 
 #other .my_message {
     display: flex;
-    float: left;
+    align-items: center;
+    justify-content: center;
     border: 2px solid black;
     border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 50%;
+    margin-top: 10px;
     background-color: gray;
-    max-width: 50%;
-    min-height: 10px;
+    width: 50%;
+    height: auto;
 }
 
 #you .msgMeta {
     display: flex;
+    flex-direction: row;
     justify-content: right;
-    margin: auto;
-    color: white;
+    margin-right: 20px;
 }
 
 #other .msgMeta {
     display: flex;
-    justify-content: right;
-    margin: auto;
-    color: white;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 20px;
 }
 
 .div-chat {
@@ -163,7 +170,7 @@ body {
 
 .joinContainer {
     width: 55%;
-    margin: 15% auto auto auto;
+    margin: 40px auto auto auto;
     border: 2px solid purple;
     box-shadow: 0 2px 25px purple;
     justify-content: center;
@@ -177,15 +184,13 @@ body {
 }
 
 .room-code input {
-    width: 90%;
-    height: 40px;
-    margin-bottom: 10px;
+    width: 45%;
+    height: 70px;
 }
 
 .room-code button {
-    width: 90%;
-    height: 40px;
-    background-color: blue;
+    width: 45%;
+    height: 70px;
 }
 
 .warn {
@@ -304,5 +309,4 @@ body {
 .login-form .action button:nth-child(2):hover {
 	background: #3c4d6d;
 }
-
 
