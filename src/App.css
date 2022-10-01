@@ -111,6 +111,7 @@ body {
 
 #you .my_message {
     display: flex;
+    justify-content: right;
     border: 2px solid black;
     border-radius: 5px;
     margin-left: 48%;
@@ -123,6 +124,7 @@ body {
 
 #other .my_message {
     display: flex;
+    justify-content: left;
     border: 2px solid black;
     border-radius: 5px;
     margin-left: 10px;
