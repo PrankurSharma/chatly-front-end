@@ -115,9 +115,8 @@ body {
     border: 2px solid black;
     border-radius: 5px;
     background-color: green;
-    min-width: 10px;
-    min-height: 10px;
-    width: auto;
+    max-width: 50%;
+    height: auto;
     overflow: hidden;
 }
 
@@ -127,9 +126,8 @@ body {
     border: 2px solid black;
     border-radius: 5px;
     background-color: gray;
-    min-width: 10px;
-    min-height: 10px;
-    width: auto;
+    max-width: 50%;
+    height: auto;
     overflow: hidden;
 }
 
