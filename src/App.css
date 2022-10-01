@@ -115,9 +115,10 @@ body {
     justify-content: right;
     border: 2px solid black;
     border-radius: 5px;
-    margin-top: 10px;
+    /*margin-top: 10px;
     margin-right: 10px;
-    margin-left: 10px;
+    margin-left: 10px;*/
+    margin: auto;
     background-color: green;
     width: auto;
     height: auto;
@@ -130,9 +131,10 @@ body {
     justify-content: left;
     border: 2px solid black;
     border-radius: 5px;
-    margin-left: 10px;
+    /*margin-left: 10px;
     margin-top: 10px;
-    margin-right: 10px;
+    margin-right: 10px;*/
+    margin: auto;
     background-color: gray;
     width: auto;
     height: auto;
