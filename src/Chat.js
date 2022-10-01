@@ -16,6 +16,7 @@ function Chat({socket, username, email, room, groupname, groupclick}){
             };
             await socket.emit("send_message", messageData);
             set_messageList((list) => [...list, messageData]);
+            set_currentMess("");
         }
     }
 
@@ -27,8 +28,6 @@ function Chat({socket, username, email, room, groupname, groupclick}){
                 sender_email: email,
                 message: currentMess,
                 time: new Date(Date.now()).getHours() + ":" + new Date(Date.now()).getMinutes()
-            }).then(() => {
-                set_currentMess("");
             });
         }
     }
