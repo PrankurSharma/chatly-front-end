@@ -181,12 +181,12 @@ body {
 }
 
 .room-code input {
-    width: 45%;
+    width: 90%;
     height: 70px;
 }
 
 .room-code button {
-    width: 45%;
+    width: 90%;
     height: 70px;
 }
 
