@@ -61,7 +61,7 @@ function Chat({socket, username, email, room, groupname, groupclick}){
                 return (
                     <div className="load_message" id={email === c.sender_email ? "you" : "other"}>
                         <div className="my_message">
-                            <p> {c.msg} </p>
+                            <div> <p> {c.msg} </p> </div>
                         </div>
                         <div className="msgMeta">
                             <h6> {c.msg_time} </h6>
@@ -75,10 +75,10 @@ function Chat({socket, username, email, room, groupname, groupclick}){
                    <div className="load_message" id={email === msg.sender_email ? "you" : "other"}>
                         <div className="my_message">
                             <div> <p> {msg.message} </p> </div>
-                        </div>
-                        <div className="msgMeta">
-                            <h6 id="time"> {msg.time} </h6>
-                            {email === msg.sender_email ? <h6> You </h6> : <h6> {msg.sender} </h6>}
+                            <div className="msgMeta">
+                                <h6 id="time"> {msg.time} </h6>
+                                {email === msg.sender_email ? <h6> You </h6> : <h6> {msg.sender} </h6>}
+                            </div>
                         </div>
                    </div> 
                 ); 
