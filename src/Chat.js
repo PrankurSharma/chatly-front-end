@@ -59,8 +59,8 @@ function Chat({socket, username, email, room, groupname, groupclick}){
             {loadChat.map((c) => {
                 return (
                     <div className="load_message" id={email === c.sender_email ? "you" : "other"}>
-                        <div className="my_message"> 
-                            <p> {c.msg} </p>
+                        <div className="my_message">
+                            <div> <p> {c.msg} </p> </div> 
                             <div className="msgMeta">
                                 <p> {c.msg_time} </p>
                                 {email === c.sender_email ? <p> You </p> : <p> {c.sender} </p>}
@@ -73,7 +73,7 @@ function Chat({socket, username, email, room, groupname, groupclick}){
                 return (
                    <div className="load_message" id={email === msg.sender_email ? "you" : "other"}>
                         <div className="my_message">
-                            <p> {msg.message} </p>
+                            <div> <p> {msg.message} </p> </div>
                             <div className="msgMeta">
                                 <p id="time"> {msg.time} </p>
                                 {email === msg.sender_email ? <p> You </p> : <p> {msg.sender} </p>}
