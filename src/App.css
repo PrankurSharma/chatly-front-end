@@ -131,14 +131,14 @@ body {
 
 #you .msgMeta {
     display: flex;
-    justify-content: right;
+    float: left;
     margin: auto;
     color: white;
 }
 
 #other .msgMeta {
     display: flex;
-    justify-content: right;
+    float: right;
     margin: auto;
     color: white;
 }
