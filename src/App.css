@@ -1,5 +1,7 @@
 .App {
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 ::-webkit-scrollbar {
@@ -42,28 +44,23 @@ body {
 }
 
 .main-body {
-    display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     margin-top: 40px;
 }
 
 .groups {
-    display: flex;
-    flex-direction: column;
     border: 2px solid blue;
     box-shadow: 0 2px 25px blue;
     color: blue;
-    margin: 10px;
     width: 40%;
     height: 620px;
     overflow-y: auto;
 }
 
 .chats {
-    display: flex;
     border: 2px solid purple;
     box-shadow: 0 2px 25px purple;
-    margin: 10px;
     width: 60%;
 }
 

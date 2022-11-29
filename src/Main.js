@@ -64,18 +64,15 @@ function Main() {
                 <Header username={username} />
             </div>
             <div className='main-body'>
-                <div className='groups'>
-                    <h1> My Groups </h1>
-                    <MyRooms changeGroupClick={changeGroupClick} setGroup={setGroup} />
-                </div>
-                <div className='chats'>
-                    {!displayChat ? 
-                        (<></>) : 
-                        (<>
-                            <Chat socket={socket} username={username} email={email} room={room} groupname={groupname} groupclick={groupclick}/>
-                        </>)
-                    }
-                </div>
+                {!displayChat ? 
+                    (<div className='groups'>
+                        <h1> My Groups </h1>
+                        <MyRooms changeGroupClick={changeGroupClick} setGroup={setGroup} />
+                    </div>) : 
+                    (<div className='chats'>
+                        <Chat socket={socket} username={username} email={email} room={room} groupname={groupname} groupclick={groupclick}/>
+                    </div>)
+                }
             </div>
         </div>
     );
