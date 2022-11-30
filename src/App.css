@@ -86,6 +86,12 @@ body {
     color: purple;
 }
 
+.chat-head button {
+    background-color: purple;
+    width: auto;
+    height: 30px;
+}
+
 .chat-body {
     width: auto;
     height: 500px;
