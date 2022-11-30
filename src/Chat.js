@@ -24,6 +24,8 @@ function Chat({socket, username, email, room, groupname, groupclick}){
         if(messageList.length !== 0){
             Axios.post('https://my-chatly.herokuapp.com/api/insert', {
                 message: messageList
+            }).then(() => {
+                window.location.reload();
             });
         }
     }
@@ -51,7 +53,6 @@ function Chat({socket, username, email, room, groupname, groupclick}){
         <div className="chat-head">
             <button onClick={() => {
                 insertInDB();
-                window.location.reload();
             }}>&#9658;</button>
             <h1> {groupname} </h1>
             <h5> Room Code: {room} </h5>
@@ -92,12 +93,11 @@ function Chat({socket, username, email, room, groupname, groupclick}){
                 set_currentMess(event.target.value);
             }}
             onKeyPress={(event) => {
-                event.key === "Enter" && sendMessage() && insertInDB();
+                event.key === "Enter" && sendMessage();
             }}
             />
             <button onClick={() => {
                 sendMessage();
-                insertInDB();
             }}>&#9658;</button>
         </div>
     </div>
