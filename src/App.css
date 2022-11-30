@@ -1,7 +1,5 @@
 .App {
     text-align: center;
-    align-items: center;
-    justify-content: center;
 }
 
 ::-webkit-scrollbar {
@@ -53,6 +51,7 @@ body {
     border: 2px solid blue;
     box-shadow: 0 2px 25px blue;
     color: blue;
+    margin: 50%;
     width: 40%;
     height: 620px;
     overflow-y: auto;
@@ -61,6 +60,7 @@ body {
 .chats {
     border: 2px solid purple;
     box-shadow: 0 2px 25px purple;
+    margin: 50%;
     width: 60%;
 }
 
