@@ -5,6 +5,7 @@ import Chat from './Chat';
 import MyRooms from './MyRooms';
 import Header from './Header';
 import Spinner from './Spinner';
+import { baseUrl } from './baseUrl';
 
 const socket = io.connect("https://my-chatly.herokuapp.com");
 
@@ -38,7 +39,7 @@ function Main() {
 
     const joinRoom = () => {
         if(email !== "" && room !== ""){
-            Axios.post('https://my-chatly.herokuapp.com/api/checkroom', {
+            Axios.post(baseUrl + '/api/checkroom', {
                 email: email,
                 room: room
             }).then((response) => {
