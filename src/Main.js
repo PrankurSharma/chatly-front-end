@@ -7,7 +7,7 @@ import Header from './Header';
 import Spinner from './Spinner';
 import { baseUrl } from './baseUrl';
 
-const socket = io.connect("https://my-chatly.herokuapp.com");
+const socket = io.connect(baseUrl);
 
 function Main() {
     Axios.defaults.withCredentials = true;
